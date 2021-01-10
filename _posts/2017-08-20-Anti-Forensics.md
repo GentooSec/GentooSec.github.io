@@ -16,7 +16,7 @@ What really happens is that the reference to it is deleted so that it is invisib
 In short, the file still exists but the operating system stops indexing it.
 
 
-# **Understanding this, let's look at some interesting things.**
+# Understanding this, let's look at some interesting things.
 
 Listo!. Entendida la teoría ahora con ella digamos que sabemos de manera básica que si borro un archivo en realidad se mueve, pero no lo indexa el S.O y de paso puede ser recuperado por herramientas, técnicas y metodologías de Informática Forense.
 
