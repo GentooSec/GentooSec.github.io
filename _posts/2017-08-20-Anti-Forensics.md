@@ -23,27 +23,27 @@ Listo!. Entendida la teoría ahora con ella digamos que sabemos de manera básic
 
 # What do we do?
 
-**First technique**: [Steganography](https://en.wikipedia.org/wiki/Steganography)
+* **First technique**: [Steganography](https://en.wikipedia.org/wiki/Steganography)
 
   Simple but easy to discover (unless you use a lot of creativity).
 
-**Second technique**: Secure data deletion.
+* **Second technique**: Secure data deletion.
 
   One of the best (explained below).
 
-**Third technique**: Overwriting Metadata.
+* **Third technique**: Overwriting Metadata.
 
   Bbasically because when you create a file X is stored in its metadata the program that made the exact time, the creation software and many more things including in some cases the username of the account with which you access the host.
 
-**Fourth technique**: Avoiding data creation.
+* **Fourth technique**: Avoiding data creation.
 
   If the data never existed you will never be able to recover something that never existed, simple but effective! 
 
-**Fifth technique**: Encrypted data.
+* **Fifth technique**: Encrypted data.
 
   An "easy" to implement alternative and can be applied at the disk, software and application level.
 
-**Sixth technique**: Data Hiding.
+* **Sixth technique**: Data Hiding.
 
   Data may also be hidden in unassigned or otherwise unreachable locations that are ignored by forensic tools
 
