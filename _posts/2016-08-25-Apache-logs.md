@@ -1,5 +1,5 @@
 ---
-title:  "¡Hello World!"
+title:  "Apache Logs"
 date:   2016-08-25
 published: true
 ---
