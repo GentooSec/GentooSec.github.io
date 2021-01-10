@@ -4,7 +4,7 @@ date:   2016-08-25
 published: true
 ---
 
-The idea of this post is to try to make an analysis of the raw data (logs) in the [**Common Log Format**](https://en.wikipedia.org/wiki/Common_Log_Format) to visualize some interesting details like traffic trends, status and more! It is true that we can always have automated tools such as a SIEM and / or SOAR that can do this job much more optimally, but it is always good to know how it can be done otherwise.
+The idea of this post is to try to make an analysis of the raw data (logs) in the [**Common Log Format**](https://en.wikipedia.org/wiki/Common_Log_Format) to visualize some interesting details like traffic trends, status and more! It is true that we can always have automated tools such as a **SIEM** and / or [**SOAR**](https://www.gartner.com/en/information-technology/glossary/security-orchestration-automation-response-soar#:~:text=SOAR%20refers%20to%20technologies%20that,by%20the%20security%20operations%20team.&text=SOAR%20tools%20allow%20an%20organization,in%20a%20digital%20workflow%20format.) that can do this job much more optimally, but it is always good to know how it can be done otherwise.
 
 The first thing to do is to load the necessary libraries 
 
@@ -57,7 +57,7 @@ class(city$date_time)
 
 Now there are several ways to do this: 
 
-If we have something like this 03/Mar/2016:18:22:16 in the `date_time` we can use:
+If we have something like this `03/Mar/2016:18:22:16` in the `date_time` we can use:
 
 ~~~R
 as.POSIXct(gsub('Mar','03',city$date_time))  
